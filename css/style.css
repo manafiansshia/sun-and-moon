@@ -470,7 +470,7 @@ input {
 }
 .top_kv_copy-box-min {
     display: none;
-    
+
 }
 
 @media screen and (max-width: 400px) {
@@ -489,6 +489,11 @@ input {
 .top_kv_first-box {
     width: fit-content;
     margin: 0 auto;
+}
+@media screen and (max-width: 400px) {
+    .top_kv_first-box {
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 960px) {

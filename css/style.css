@@ -359,10 +359,24 @@ input {
     z-index: var(--z-index-kv);
 }
 
+@media screen and (max-width: 320px) {
+    .top_kv {
+        height: 650px;
+    }
+}
+
 @media screen and (max-width: 390px) and (min-width: 376px) {
-    @media screen and (max-height: 677px) {
+    @media screen and (max-height: 729px) {
         .top_kv {
             height: 740px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    @media screen and (max-height: 650px) {
+        .top_kv {
+            height: 650px;
         }
     }
 }
@@ -456,15 +470,20 @@ input {
 }
 .top_kv_copy-box-min {
     display: none;
+    
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
     .top_kv_copy-box {
         display: none;
     }
     .top_kv_copy-box-min {
         display: block;
     }
+}
+
+@media screen and (max-width: 360px) {
+    
 }
 
 .top_kv_first-box {

@@ -365,7 +365,7 @@ input {
     }
 }
 
-@media screen and (max-width: 390px) and (min-width: 376px) {
+@media screen and (max-width: 415px) and (min-width: 376px) {
     @media screen and (max-height: 729px) {
         .top_kv {
             height: 740px;
@@ -473,7 +473,7 @@ input {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
     .top_kv_copy-box {
         display: none;
     }
@@ -490,7 +490,7 @@ input {
     width: fit-content;
     margin: 0 auto;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
     .top_kv_first-box {
         margin: 0;
     }
